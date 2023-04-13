@@ -1,4 +1,4 @@
-# EE-CA-crowd-dynamics tester files for IBDP EE Computer Science
+# EE CA crowd dynamics tester files for IBDP EE Computer Science
 uses matplotlib and slightly apadted cromosim library
 
 cellular_automata.py uses the json file input.json
