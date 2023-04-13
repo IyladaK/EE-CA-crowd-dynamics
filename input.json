@@ -1,0 +1,54 @@
+{
+  "domain":
+  {
+    "name":"room_60x30",
+    "background":"",
+    "px":0.4,
+    "width":60,
+    "height":60,
+    "wall_colors":[ [0,0,0] ],
+    "shape_lines":[
+      {
+        "xx": [12.4, 13.6],
+        "yy": [0.4,0.4],
+        "linewidth": 2,
+        "outline_color": [255,0,0],
+        "fill_color": [255,0,0]
+      },
+      {
+        "xx": [13.6,14.4,14.4,11.6,11.6,12.4],
+        "yy": [0.4,0.4,20.8,20.8,0.4,0.4],
+        "linewidth": 2,
+        "outline_color": [0,0,0],
+        "fill_color": [0,0,0]
+      }
+    ],
+    "shape_circles":[
+    ],
+    "shape_ellipses":[
+    ],
+    "shape_rectangles":[
+    ],
+    "shape_polygons":[
+    ],
+    "destinations":[
+      {
+        "name": "door",
+        "colors": [ [255,0,0] ],
+        "excluded_colors":[ [0,0,0] ],
+        "desired_velocity_from_color":[],
+        "velocity_scale": 1,
+        "next_destination": null,
+        "next_domain": null,
+        "next_transit_box":null
+      }
+    ]
+  },
+  "prefix":"results/",
+  "Np":5,
+  "Tf":100.0,
+  "dt":0.315,
+  "drawper":1,
+  "update_strategy":"sequential",
+  "kappa":10.0
+}
