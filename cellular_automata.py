@@ -1,3 +1,11 @@
+# adapted from cromosim example code micro_social.py
+# https://github.com/sylvain-faure/cromosim/blob/master/examples/cellular_automata/cellular_automata.py
+# originally written by:
+#     Sylvain Faure <sylvain.faure@universite-paris-saclay.fr>
+#     Bertrand Maury <bertrand.maury@universite-paris-saclay.fr>
+
+
+
 import sys, os
 from cromosim import *
 from cromosim.ca import *
