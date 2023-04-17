@@ -1,12 +1,8 @@
-# Authors:
+# adapted from cromosim example code micro_social.py
+# https://github.com/sylvain-faure/cromosim/blob/master/examples/micro/social/micro_social.py
+# originally written by:
 #     Sylvain Faure <sylvain.faure@universite-paris-saclay.fr>
 #     Bertrand Maury <bertrand.maury@universite-paris-saclay.fr>
-#
-#      cromosim/examples/micro/social/micro_social.py
-#      python micro_social.py --json input.json
-#
-# License: GPL
-
 
 import sys, os
 from cromosim import *
